@@ -57,7 +57,7 @@ Utiliza o delimitador // para definir o final do comando em determinadas partes 
 - ``MySQL``
 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/lastfirefly/ProjetoGrupo_3/tree/main).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/lastfirefly/ProjetoGrupo_3/tree/main/SQL).
 
 ## 📃 Licença
 
