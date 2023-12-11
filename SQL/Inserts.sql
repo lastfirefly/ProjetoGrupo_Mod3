@@ -46,6 +46,7 @@ INSERT INTO Turma (Nome_Turma, Id_Curso) VALUES
 ('Turma 19', 19),
 ('Turma 20', 20);
 
+
 -- Inserções para a tabela Módulo
 INSERT INTO Módulo (Nome, Id_Curso) VALUES
 ('Módulo 1', 1),
@@ -69,7 +70,6 @@ INSERT INTO Módulo (Nome, Id_Curso) VALUES
 ('Módulo 19', 19),
 ('Módulo 20', 20);
 
--- Inserções para a tabela Disciplina
 INSERT INTO Disciplina (Nome, Carga_Horaria, Dias, Data_inic, Data_term, Id_Curso, Id_Módulo) VALUES
 ('Disciplina 1', 100, 5, '2023-01-01', '2023-06-01', 1, 1),
 ('Disciplina 2', 200, 4, '2023-02-01', '2023-07-01', 2, 2),
@@ -160,6 +160,7 @@ INSERT INTO Facilitador (Nome, Id_Disciplina) VALUES
 ('Facilitador 1', 18),
 ('Facilitador 3', 19),
 ('Facilitador 1', 20);
+
 -- Inserções para a tabela Facilitador_Turma
 INSERT INTO Facilitador_Turma (Id_Facilitador, Id_Turma) VALUES
 (1, 1),
@@ -204,7 +205,7 @@ INSERT INTO Boletim (Id_Curso, Id_Disciplina, Id_Aluno, Notas_Aluno, Frequência
 (17, 17, 17, 8.2, 0.84, 'Aprovado'),
 (18, 18, 18, 8.6, 0.97, 'Aprovado'),
 (19, 19, 19, 6.9, 0.6, 'Reprovado'),
-(20, 20, 20, 6.5, 0.7, 'Reprovado');
+(20, 20, 20, 6.5, 0.7, 'Reprovado');	
 
 -- Inserções para a tabela LogStatus
 INSERT INTO LogStatus (Id_Aluno, Status_Antigo, Status_Novo, Data_Mudanca) VALUES
