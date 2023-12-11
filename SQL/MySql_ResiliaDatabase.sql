@@ -79,24 +79,25 @@ CREATE TABLE Aluno (
 INSERT INTO Aluno (Nome, Status, Id_Turma, Id_Curso, Frequencia) VALUES
 ('Aluno 1', 'Ativo', 1, 1, 0.9),
 ('Aluno 2', 'Ativo', 2, 2, 0.8),
-('Aluno 3', 'Ativo', 3, 3, 0.75),
-('Aluno 4', 'Ativo', 4, 4, 0.85),
-('Aluno 5', 'Ativo', 5, 5, 0.92),
-('Aluno 6', 'Ativo', 6, 6, 0.88),
-('Aluno 7', 'Ativo', 7, 7, 0.78),
-('Aluno 8', 'Ativo', 8, 8, 0.91),
-('Aluno 9', 'Ativo', 9, 9, 0.87),
-('Aluno 10', 'Ativo', 10, 10, 0.79),
-('Aluno 11', 'Ativo', 11, 11, 0.83),
-('Aluno 12', 'Ativo', 12, 12, 0.94),
-('Aluno 13', 'Ativo', 13, 13, 0.76),
-('Aluno 14', 'Ativo', 14, 14, 0.89),
-('Aluno 15', 'Ativo', 15, 15, 0.82),
-('Aluno 16', 'Ativo', 16, 16, 0.93),
-('Aluno 17', 'Ativo', 17, 17, 0.81),
-('Aluno 18', 'Ativo', 18, 18, 0.86),
-('Aluno 19', 'Ativo', 19, 19, 0.77),
-('Aluno 20', 'Ativo', 20, 20, 0.7);
+('Aluno 3', 'Inativo', 3, 3, 0.7),
+('Aluno 4', 'Ativo', 4, 4, 0.95),
+('Aluno 5', 'Ativo', 5, 5, 0.88),
+('Aluno 6', 'Ativo', 6, 6, 0.91),
+('Aluno 7', 'Inativo', 7, 7, 0.6),
+('Aluno 8', 'Ativo', 8, 8, 0.92),
+('Aluno 9', 'Ativo', 9, 9, 0.89),
+('Aluno 10', 'Ativo', 10, 10, 0.85),
+('Aluno 11', 'Ativo', 11, 11, 0.86),
+('Aluno 12', 'Ativo', 12, 12, 0.96),
+('Aluno 13', 'Ativo', 13, 13, 0.78),
+('Aluno 14', 'Ativo', 14, 14, 0.93),
+('Aluno 15', 'Ativo', 15, 15, 0.87),
+('Aluno 16', 'Ativo', 16, 16, 0.94),
+('Aluno 17', 'Ativo', 17, 17, 0.84),
+('Aluno 18', 'Ativo', 18, 18, 0.97),
+('Aluno 19', 'Inativo', 19, 19, 0.6),
+('Aluno 20', 'Inativo', 20, 20, 0.7);
+
 
 
 CREATE TABLE Módulo (
@@ -322,7 +323,7 @@ INSERT INTO Boletim (Id_Curso, Id_Disciplina, Id_Aluno, Notas_Aluno, Frequência
 (17, 17, 17, 8.2, 0.84, 'Aprovado'),
 (18, 18, 18, 8.6, 0.97, 'Aprovado'),
 (19, 19, 19, 6.9, 0.6, 'Reprovado'),
-(20, 20, 20, 6.5, 0.7, 'Reprovado');
+(20, 20, 20, 6.5, 0.7, 'Reprovado');	
 
 
 CREATE VIEW EvasaoPorTurma AS
